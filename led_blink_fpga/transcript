@@ -1,0 +1,135 @@
+# Loading project lledd
+# Compile of v_led_blink.v was successful.
+vsim work.led_blink
+# vsim work.led_blink 
+# Start time: 15:36:41 on Jun 05,2022
+# Loading work.led_blink
+add wave -position insertpoint  \
+sim:/led_blink/count_100Hz \
+sim:/led_blink/count_50Hz \
+sim:/led_blink/count_10Hz \
+sim:/led_blink/count_1Hz \
+sim:/led_blink/clock \
+sim:/led_blink/enable \
+sim:/led_blink/sw1 \
+sim:/led_blink/sw2 \
+sim:/led_blink/led \
+sim:/led_blink/r_100Hz_counter \
+sim:/led_blink/r_50Hz_counter \
+sim:/led_blink/r_10Hz_counter \
+sim:/led_blink/r_1Hz_counter \
+sim:/led_blink/t_100_toggle \
+sim:/led_blink/t_50_toggle \
+sim:/led_blink/t_10_toggle \
+sim:/led_blink/t_1_toggle \
+sim:/led_blink/o_led
+force -freeze sim:/led_blink/clock 1 0, 0 {10000000 ps} -r 0.02ms
+# Compile of v_led_blink.v was successful.
+# Compile of tb_v_led_blink.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_led_blink
+# End time: 20:47:31 on Jun 05,2022, Elapsed time: 5:10:50
+# Errors: 0, Warnings: 0
+# vsim work.tb_led_blink 
+# Start time: 20:47:31 on Jun 05,2022
+# Loading work.tb_led_blink
+# Loading work.led_blink
+add wave -position insertpoint  \
+sim:/tb_led_blink/tb_clock \
+sim:/tb_led_blink/tb_enable \
+sim:/tb_led_blink/tb_sw1 \
+sim:/tb_led_blink/tb_sw2 \
+sim:/tb_led_blink/tb_led
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# Break key hit
+# Break in Module tb_led_blink at /mnt/Documents/Projects/verilog/tb_v_led_blink.v line 20
+restart
+# Compile of v_led_blink.v was successful.
+# Compile of tb_v_led_blink.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_led_blink
+# End time: 20:53:28 on Jun 05,2022, Elapsed time: 0:05:57
+# Errors: 0, Warnings: 0
+# vsim work.tb_led_blink 
+# Start time: 20:53:28 on Jun 05,2022
+# Loading work.tb_led_blink
+# Loading work.led_blink
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+add wave -position insertpoint  \
+sim:/tb_led_blink/tb_clock \
+sim:/tb_led_blink/tb_enable \
+sim:/tb_led_blink/tb_sw1 \
+sim:/tb_led_blink/tb_sw2 \
+sim:/tb_led_blink/tb_led
+run
+run
+restart
+# Compile of v_led_blink.v was successful.
+# Compile of tb_v_led_blink.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_led_blink
+# End time: 20:56:27 on Jun 05,2022, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 0
+# vsim work.tb_led_blink 
+# Start time: 20:56:27 on Jun 05,2022
+# Loading work.tb_led_blink
+# Loading work.led_blink
+add wave -position insertpoint  \
+sim:/tb_led_blink/tb_clock \
+sim:/tb_led_blink/tb_enable \
+sim:/tb_led_blink/tb_sw1 \
+sim:/tb_led_blink/tb_sw2 \
+sim:/tb_led_blink/tb_led
+run
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+run -all
+# Break key hit
+# Simulation stop requested.
+run -continue
+# Test Complete
+# Break key hit
+# Simulation stop requested.
+restart
+restart
+# Compile of tb_v_led_blink.v was successful with warnings.
+vsim work.tb_led_blink
+# End time: 22:08:22 on Jun 05,2022, Elapsed time: 1:11:55
+# Errors: 0, Warnings: 0
+# vsim work.tb_led_blink 
+# Start time: 22:08:22 on Jun 05,2022
+# Loading work.tb_led_blink
+# Loading work.led_blink
+add wave -position insertpoint  \
+sim:/tb_led_blink/tb_clock \
+sim:/tb_led_blink/tb_enable \
+sim:/tb_led_blink/tb_sw1 \
+sim:/tb_led_blink/tb_sw2 \
+sim:/tb_led_blink/tb_led
+run -all
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# Break key hit
+# Break in Module tb_led_blink at /mnt/Documents/Projects/verilog/tb_v_led_blink.v line 20
+# End time: 22:55:46 on Jun 05,2022, Elapsed time: 0:47:24
+# Errors: 0, Warnings: 6

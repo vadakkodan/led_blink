@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/mnt/Documents/Projects/verilog/led_blink/led_blink_isim_beh.exe" -prj "/mnt/Documents/Projects/verilog/led_blink/led_blink_beh.prj" "work.led_blink" "work.glbl" 

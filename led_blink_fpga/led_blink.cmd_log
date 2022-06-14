@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/mnt/Documents/Projects/verilog/led_blink/led_blink.xst" -ofn "/mnt/Documents/Projects/verilog/led_blink/led_blink.syr" 

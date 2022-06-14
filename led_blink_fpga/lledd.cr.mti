@@ -1,0 +1,18 @@
+/mnt/Documents/Projects/verilog/tb_v_led_blink.v {2 {vlog -work work -stats=none /mnt/Documents/Projects/verilog/tb_v_led_blink.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module led_blink
+-- Compiling module tb_led_blink
+** Warning: /mnt/Documents/Projects/verilog/tb_v_led_blink.v(36): (vlog-2597) '3000000000' is being treated as 32-bit signed integer and will overflow.
+** Warning: /mnt/Documents/Projects/verilog/tb_v_led_blink.v(41): (vlog-2597) '3000000000' is being treated as 32-bit signed integer and will overflow.
+
+Top level modules:
+	tb_led_blink
+
+} {} {}} /mnt/Documents/Projects/verilog/v_led_blink.v {1 {vlog -work work -stats=none /mnt/Documents/Projects/verilog/v_led_blink.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module led_blink
+
+Top level modules:
+	led_blink
+
+} {} {}}

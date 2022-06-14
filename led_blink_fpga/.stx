@@ -1,0 +1,38 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /mnt/Documents/Projects/verilog/led_blink/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to /mnt/Documents/Projects/verilog/led_blink/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../v_led_blink.v" in library work
+ERROR:HDLCompilers:26 - "../v_led_blink.v" line 26 unexpected token: '1'
+ERROR:HDLCompilers:26 - "../v_led_blink.v" line 37 expecting ';', found 'EOF'
+ERROR:HDLCompilers:26 - "../v_led_blink.v" line 37 expecting 'end', found 'EOF'
+Module <led_blink> compiled
+ERROR:HDLCompilers:26 - "../v_led_blink.v" line 37 expecting 'endmodule', found 'EOF'
+Analysis of file <".prj"> failed.
+--> 
+
+
+Total memory usage is 460456 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

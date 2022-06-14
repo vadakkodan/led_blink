@@ -1,0 +1,5 @@
+set -tmpdir "/mnt/Documents/Projects/verilog/led_blink/xst/projnav.tmp"
+set -xsthdpdir "/mnt/Documents/Projects/verilog/led_blink/xst"
+elaborate
+-ifn .prj
+-ifmt mixed

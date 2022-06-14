@@ -1,0 +1,28 @@
+Command line:
+   led_blink_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  45337
+
+Sat Jun  4 15:27:43 2022
+
+
+ Elaboration Time: 0.11 sec
+
+ Current Memory Usage: 185.467 Meg
+
+ Total Signals          : 18
+ Total Nets             : 18
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 260
+
+ Total Simulation Time: 0.22 sec
+
+ Current Memory Usage: 260.968 Meg
+
+Sat Jun  4 22:37:54 2022
+
